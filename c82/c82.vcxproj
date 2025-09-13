@@ -130,6 +130,7 @@
     <ClCompile Include="..\..\sdl-tut\sdl-tut\screen.c" />
     <ClCompile Include="c82.c" />
     <ClCompile Include="chip8.c" />
+    <ClCompile Include="display.c" />
     <ClCompile Include="memory.c" />
     <ClCompile Include="stack.c" />
   </ItemGroup>

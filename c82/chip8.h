@@ -18,7 +18,7 @@ struct Registers {
 };
 
 struct Chip8 {
-    bool screen[SCREEN_WIDTH][SCREEN_HEIGHT];
+    bool screen[SCREEN_HEIGHT][SCREEN_WIDTH];
     char unsigned memory[0x1000];
     char unsigned keyboard[0xf];
     struct Registers registers;
